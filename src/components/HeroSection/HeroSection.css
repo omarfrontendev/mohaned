@@ -18,8 +18,9 @@
 .hero__section__text {
   position: absolute;
   top: 50%;
-  right: 100px;
-  transform: translateY(-50%);
+  left: 50%;
+  /* right: 100px; */
+  transform: translate(-50%, -50%);
 }
 .hero__section .hero__title {
   font-size: 50px;
@@ -80,4 +81,36 @@
 }
 .hero__section .hero__btns .hero__btn__details span {
   font-weight: 800;
+}
+@media(max-width: 1600px) {
+  .hero__section {
+    height: calc(100vh - 111px);
+  }
+  .hero__section .hero__title {
+    font-size: 44px;
+    line-height: 70.7px;
+  }
+  .hero__section .hero__subtitle {
+    font-size: 20px;
+    line-height: 41px;
+  }
+  .hero__section .hero__btns {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+@media(max-width: 575px) {
+  .hero__section .hero__title {
+    font-size: 30px;
+    line-height: 54.7px;
+  }
+  .hero__section .hero__subtitle {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .hero__section .hero__title > span .tag {
+    top: -42px;
+    left: -40px;
+    width: 72px;
+  }
 }

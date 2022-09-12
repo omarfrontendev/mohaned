@@ -56,3 +56,15 @@
   font-size: 57px;
   font-weight: 800;
 }
+@media(max-width: 1600px) {
+  .user__courses .user__cousrses__card {
+    padding: 12px 21px 20px;
+    text-align: center;
+    background-color: #F2F1F5;
+  }
+}
+@media(max-width: 1199px) {
+  .user__card .user__courses {
+    column-gap: 20px;
+  }
+}

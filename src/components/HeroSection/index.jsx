@@ -9,7 +9,7 @@ const HeroSection = ({ title, subtitle, image, btnColor }) => {
       <div className='hero__bgk'>
         <img className='bgk__image' src={image || ''} alt="" />
       </div>
-      <div className="hero__section__text">
+      <div className="hero__section__text container">
         <h1 className='hero__title'>{title}</h1>
         <p className='hero__subtitle'>{subtitle}</p>
         <div className='hero__btns'>

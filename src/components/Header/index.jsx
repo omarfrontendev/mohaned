@@ -34,11 +34,12 @@ const Header = () => {
             <a href='#' target='_blank'>
               <Facebook className='header__icon' />
             </a>
-            <p className='header__parag'>50 % خصم علي الدورات التدريبيه و الجلسات</p>
+            <p className='header__parag'>تابعنا علي صفحات التواصل الاجتماعي</p>
           </div>
           <div className="center__nav">
             <button className='header__discount__btn'>خصم لمده شهر</button>
-            <p className='header__parag'>تابعنا علي صفحات التواصل الاجتماعي</p>
+            <p className='header__parag'></p>
+            <p className='header__parag'>50 % خصم علي الدورات التدريبيه و الجلسات</p>
           </div>
           <div className="left__nav">
             <p className='header__parag'>تواصل معنا</p>
@@ -66,6 +67,25 @@ const Header = () => {
                 <a href="#" className='header__links'>من نحن</a>
                 <a href="#" className='header__links'>الخدمات</a>
                 <a href="#" className='header__links'>الباقات</a>
+                <div className="rigth__nav_mob">
+                  <div>
+                    <a href='#' target='_blank'>
+                      <Instagram className='header__icon' />
+                    </a>
+                    <a href='#' target='_blank'>
+                      <Twitter className='header__icon' />
+                    </a>
+                    <a href='#' target='_blank'>
+                      <Facebook className='header__icon' />
+                    </a>
+                  </div>
+                  <p className='header__parag'>تابعنا علي صفحات التواصل الاجتماعي</p>
+                </div>
+                <div className="left__nav__mob">
+                  <p className='header__parag'>تواصل معنا</p>
+                  <SiWhatsapp />
+                  <p className='header__number'>010000055522</p>
+                </div>
               </>
             ) : (
               <>
@@ -85,6 +105,25 @@ const Header = () => {
                   <span className='bullet'></span>
                   اختبارات الحصيله اللغويه    
                 </Link>
+                <div className="rigth__nav_mob">
+                  <div>
+                    <a href='#' target='_blank'>
+                      <Instagram className='header__icon' />
+                    </a>
+                    <a href='#' target='_blank'>
+                      <Twitter className='header__icon' />
+                    </a>
+                    <a href='#' target='_blank'>
+                      <Facebook className='header__icon' />
+                    </a>
+                  </div>
+                  <p className='header__parag'>تابعنا علي صفحات التواصل الاجتماعي</p>
+                </div>
+                <div className="left__nav__mob">
+                  <p className='header__parag'>تواصل معنا</p>
+                  <SiWhatsapp />
+                  <p className='header__number'>010000055522</p>
+                </div>
               </>
             )}
             </div>

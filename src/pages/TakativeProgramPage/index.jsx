@@ -7,7 +7,7 @@ import Hero1 from '../../components/images/hero1.png'
 import Tag from '../../components/images/image 11.png'
 import Line from '../../components/images/pngegg (1) 1.png'
 
-import './TakativeProgramPage.css'
+// import './TakativeProgramPage.css'
 
 const TakativeProgramPage = () => {
 

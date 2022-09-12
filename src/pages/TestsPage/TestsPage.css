@@ -3,3 +3,24 @@
   flex-direction: column;
   row-gap: 109px;
 }
+
+@media(max-width: 1400px) {
+  .tests__container .single__course .course__data {
+    column-gap: 20px;
+  }
+  .tests__container .list__test li {
+    font-size: 22px;
+  }
+}
+@media(max-width: 1199px) {
+  .tests__container .single__course .course__data {
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .tests__container .list__test li {
+    font-size: 18px;
+  }
+}

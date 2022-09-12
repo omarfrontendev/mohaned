@@ -27,6 +27,7 @@
   flex-basis: calc(50% - 87px);
   display: flex;
   position: relative;
+  flex-grow: 1;
 }
 .edit__account__form .fomr__inputs .select__box__controle .seclect__box {
   all: unset;
@@ -61,4 +62,27 @@
   font-weight: 700;
   display: block;
   margin: 0 auto;
+}
+@media(max-width: 1600px) {
+  .edit__account__form .fomr__inputs {
+    column-gap: 40px;
+  }
+  .edit__account__form .fomr__inputs .select__box__controle, .edit__account__form .fomr__inputs .input__controle {
+    flex-grow: 1;
+  }
+}
+@media(max-width: 1199px) {
+  .edit__account__form {
+    padding: 24px;
+  }
+}
+@media(max-width: 575px) {
+  .edit__account__form .fomr__inputs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .edit__account__form .fomr__inputs .select__box__controle, 
+  .edit__account__form .fomr__inputs .input__controle {
+    /* flex-shrink: 0; */
+  }
 }

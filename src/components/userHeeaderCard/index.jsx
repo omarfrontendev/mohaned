@@ -30,8 +30,11 @@ const UserHeaderCard = () => {
       </div>
       <RiArrowDropDownLine className={`${dropdown ? 'rotate ' : '' } drop__down__icon`} />
       {dropdown && 
-        <>
-          <div className='dropdown__btns'>
+        <div className='dropdown__btns'>
+          <div className="user__details user__mob">
+            <div className="subtitle__user">مرحبا بك</div>
+            <h5>{user.name}</h5>
+          </div>
           <button 
             className='logout__btn' 
             onClick={() => {
@@ -41,8 +44,7 @@ const UserHeaderCard = () => {
             تسجيل الخروج
           </button>
           <Link to='edit-profile'>الصفحة الشخصية</Link>
-          </div>
-        </>
+        </div>
       }
     </div>
   )

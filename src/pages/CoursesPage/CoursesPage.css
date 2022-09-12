@@ -7,3 +7,28 @@
   row-gap: 77px;
   grid-template-columns: repeat(2, 1fr);
 }
+
+@media(max-width: 1400px) {
+  .courses__container {
+    gap: 50px;
+  }
+}
+@media(max-width: 1199px) {
+  .courses__container {
+    gap: 20px;
+  }
+}
+@media(max-width: 991px) {
+  .courses__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media(max-width: 500px) {
+  .single__course .course__footer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .single__course .course__footer .course__duration:last-of-type {
+    margin: 0 auto;
+  }
+}

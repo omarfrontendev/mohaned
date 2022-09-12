@@ -7,9 +7,9 @@ import ContactUs from '../../components/ContactUs'
 import courseImage from '../../components/images/Rectangle 51 (2).png'
 import Tag from '../../components/images/image 11.png'
 import Line from '../../components/images/pngegg (1) 1.png'
+import Title from '../../components/Title'
 
 import './TestsPage.css'
-import Title from '../../components/Title'
 
 const TestsPage = () => {
 

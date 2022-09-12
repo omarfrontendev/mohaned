@@ -1,0 +1,43 @@
+.games__section {
+  /* width: 90%; */
+  height: 80vh;
+  background-color: #FFF;
+  margin: 40px auto !important;
+  max-width: 95%;
+}
+.games__categories {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 35px;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+.games__categories button {
+  background-color: #4E3064;
+  padding: 20px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  width: 100%;
+}
+@media(max-width: 767px) {
+  .games__categories {
+    padding: 24px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    flex-wrap: wrap;
+  }
+  .games__categories button {
+    flex-basis: calc(100% / 3);
+    flex-grow: 1;
+  }
+}
+
+@media(max-width: 480px) {
+  .games__categories button {
+    flex-basis: 100%;
+  }
+}

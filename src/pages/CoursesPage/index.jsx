@@ -7,9 +7,9 @@ import ContactUs from '../../components/ContactUs'
 import OurProgrames from '../../components/OurPrograms'
 import Tag from '../../components/images/image 11.png'
 import Line from '../../components/images/pngegg (1) 1.png'
+import Title from '../../components/Title'
 
 import './CoursesPage.css'
-import Title from '../../components/Title'
 
 const CoursesPage = () => {
 

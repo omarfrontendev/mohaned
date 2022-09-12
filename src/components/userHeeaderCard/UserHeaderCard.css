@@ -56,3 +56,20 @@
   font-weight: 600;
   cursor: pointer;
 }
+.user__mob {
+  display: none;
+}
+@media(max-width: 575px) {
+  .user__header__card .dropdown__btns {
+    white-space: pre;
+    bottom: -190px;
+  }
+  .user__mob {
+    display: flex !important;
+    flex-direction: column;
+    /* row-gap: 10px; */
+  }
+  .user__header__card .user__details {
+    margin: 0;
+  }
+}

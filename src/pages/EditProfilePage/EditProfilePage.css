@@ -10,3 +10,24 @@
   gap: 40px;
   grid-template-columns: 28% calc(72% - 40px);
 }
+@media(max-width: 1600px) {
+  .editProfile__page .row__1 {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 35% calc(65% - 40px);
+  }
+}
+@media(max-width: 1199px) {
+  .editProfile__page {
+    row-gap: 30px;
+  }
+  .editProfile__page .row__1 {
+    column-gap: 30px;
+  }
+} 
+@media(max-width: 992px) {
+  .editProfile__page .row__1 {
+    display: flex;
+    flex-direction: column;
+  }
+}

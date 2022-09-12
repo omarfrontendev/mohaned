@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import Footer from './components/Footer'
 
 import './styles.css'
+import GamesPage from './pages/GamesPage'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/meetings' element={<MeetingsPage />} />
           <Route path='courses' element={<CoursesPage />} />
           <Route path='/tests' element={<TestsPage />} />
+          <Route path='/games' element={<GamesPage />} />
         </Routes>
       </div>
       <Footer />

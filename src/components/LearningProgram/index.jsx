@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Card from '../../UI/Card'
 import Image from '../images/image 30.png'
 
@@ -10,14 +11,17 @@ const LearningProgram = () => {
     {
       id: 1,
       title: 'الفواكه',
+      open: true
     },
     {
       id: 2,
       title: 'الفواكه',
+      open: true
     },
     {
       id: 3,
       title: 'الفواكه',
+      open: true
     },
     {
       id: 4,
@@ -88,16 +92,16 @@ const LearningProgram = () => {
   return (
     <section className='learning__program__secttion'>
       <Card radius='0px'>
-        <div className='learning__container'>
+        <Link to='/programs' className='learning__container'>
           {types.map(t => (
-            <div className='leaning__box' key={t.id}>
+            <div className={`leaning__box ${t?.open ? 'opened' : 'closed'}`} key={t.id}>
               <div className='learning__image'>
                 <img src={Image} alt="" />
               </div>
               <p className='leaning__title'>{t.title}</p>
             </div>
           ))}
-        </div>
+        </Link>
       </Card>
     </section>
   )
