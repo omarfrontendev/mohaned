@@ -1,0 +1,24 @@
+.main__input {
+  all: unset;
+  background-color: transparent;
+  height: 58px;
+  width: 100%;
+  border-radius: 8px;
+  /* border: 1px solid #FEE3C7; */
+  /* border-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(254,227,199,1) 100%); */
+  padding: 0 32px 0 20px;
+  display: flex;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 10;
+  background-color: #FFF;
+}
+.passowrd__icon {
+  all: unset;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

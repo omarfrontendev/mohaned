@@ -1,0 +1,168 @@
+.speech__experts .speech__title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 74.96px;
+}
+.speech__experts .speech__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 29.98px;
+  margin-bottom: 100px;
+}
+.speech__experts .speech__subtitle span {
+  font-weight: 800;
+}
+.speech__experts .speech__content {
+  padding: 70px 60px 50px;
+}
+.speech__content .monitor__content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+.monitor__content .rigth__col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(-120px);
+}
+.monitor__content .rigth__col .monitor__image {
+  width: 217px;
+  height: 217px;
+  border-radius: 90px;
+  background-color: #FB7488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 11px;
+  border: 1px solid #4E3064;
+}
+.monitor__content .rigth__col .monitor__image img {
+  width: 150px;
+}
+.monitor__content .rigth__col .monitor__name {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 65.59px;
+  color: #000000;
+}
+.monitor__content .rigth__col .monitor__job {
+  font-weight: 300;
+  font-size: 22px;
+}
+.monitor__content .left__col {
+  flex: 1;
+}
+.monitor__content .list__details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.monitor__content .list__details li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #1F1F1F;
+}
+.monitor__content .list__details li .square__icon {
+  font-size: 10px;
+}
+.booking__form {
+  width: 100%;
+  background-color: #F2F1F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 18px;
+  padding: 19px 70px 35px;
+}
+.booking__form .booking__title {
+  font-weight: 800;
+  font-size: 30px;
+  color: #000000;
+  line-height: 56.22px;
+}
+.booking__form .booking__content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.booking__content .center__col,
+.booking__content .left__col,
+.booking__content .rigth__col {
+  text-align: center;
+}
+
+.booking__content .box__title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #1F1F1F;
+  line-height: 46.85px;
+  margin-bottom: 8px;
+}
+.booking__content input[type='radio'] {
+  display: none;
+}
+.booking__content .radio__inputs__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+.booking__content .radio__inputs__container label {
+  cursor: pointer;
+  opacity: .6;
+}
+.booking__content input[type='radio']:checked + label {
+  opacity: 1;
+}
+.radio__input__num-of-course label {
+  background-color: red;
+  color: #FFF;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+.booking__form + .speech__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 47px;
+  margin-top: 40px;
+}
+.booking__form + .speech__footer .total__price .total {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 46.85px;
+}
+.booking__form + .speech__footer .total__price .price {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+}
+.booking__form + .speech__footer button {
+  all: unset;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #DEB50F;
+  border-radius: 10px;
+  text-align: center;
+  width: 160px;
+  height: 57px;
+}

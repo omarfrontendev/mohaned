@@ -1,0 +1,58 @@
+.user__header__card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  position: relative;
+}
+.user__header__image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  object-fit: cover;
+}
+.user__header__card .user__details {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.user__details .subtitle__user {
+  font-size: 10px;
+  font-weight: 400;
+  color: #000000;
+}
+.user__details h5 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #000000;
+  white-space: pre;
+}
+.drop__down__icon {
+  transition: .3s ease-in-out;
+  font-size: 20px;
+}
+.drop__down__icon.rotate {
+  transform: rotate(180deg);
+}
+.user__header__card .dropdown__btns {
+  box-shadow: 0px 10px 15px 0px #0000001A;
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  padding: 20px;
+  background: #FFF;
+  border-radius: 8px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-start;
+}
+.user__header__card .logout__btn,
+.user__header__card a {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

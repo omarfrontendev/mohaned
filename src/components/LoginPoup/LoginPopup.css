@@ -1,0 +1,111 @@
+.login__container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000a6;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  transition: .3s ease-in-out;
+  opacity: 0;
+  animation: show .3s ease-in-out forwards;
+}
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
+.login__container .card {
+  animation: popup .3s ease-in-out forwards;
+}
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.login__popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.login__popup .rigth {
+  flex: 1;
+}
+.login__popup .left {
+  flex: 1;
+}
+.login__popup .login__image img {
+  width: 100%;
+  height: 100%;
+ object-fit: cover;
+}
+.login__popup .login__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+.login__popup .login__btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  align-items: flex-start;
+}
+.login__popup .login__btns .submit__form {
+  width: 100%;
+  color: #FFF;
+  background-color: #4E3064;
+  font-size: 35px;
+  font-weight: 400;
+  height: 88px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+.login__popup .login__btns .forget__password {
+  font-weight: 700;
+  font-size: 20px;
+  color: #DEB50F;
+}
+.login__form .switch__signin__signup {
+  font-weight: 700;
+  font-size: 31px;
+  color: #DEB50F;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__popup__title {
+  font-size: 62px;
+  font-weight: 400;
+  color: #1F1F1F;
+  line-height: 116.19px;
+  position: relative;
+  width: fit-content;
+}
+.login__popup__title .tag {
+  position: absolute;
+  top: -40px;
+  left: -60px;
+}
+.login__popup__subtitle {
+  font-size: 29px;
+  font-weight: 400;
+  color: #1F1F1F;
+  line-height: 54.35px;
+  margin-bottom: 35px;
+}
+.login__form__inputs__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}

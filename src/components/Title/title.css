@@ -1,0 +1,37 @@
+.section__title {
+  font-weight: 800;
+  margin-bottom: 67px;
+  width: fit-content;
+}
+.section__title .main__title {
+  font-size: 40px;
+  color: #000000;
+  line-height: 74.96px;
+  position: relative;
+  width: fit-content;
+  
+}
+.section__title .main__title .tag {
+  position: absolute;
+  top: -20px;
+  left: -24px;
+  width: 45px;
+  height: 45px;
+}
+.section__title .main__title .line {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+}
+.section__title .main__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 29.98px;
+  margin-bottom: 100px;
+  margin-top: 18px;
+}
+.section__title .main__subtitle span {
+  font-weight: 800;
+}

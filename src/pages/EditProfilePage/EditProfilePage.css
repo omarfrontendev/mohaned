@@ -1,0 +1,12 @@
+.editProfile__page {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.editProfile__page .row__1 {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 28% calc(72% - 40px);
+}

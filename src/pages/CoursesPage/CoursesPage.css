@@ -1,0 +1,9 @@
+.courses__section {
+  margin: 105px auto 170px;
+}
+.courses__container {
+  display: grid;
+  column-gap: 123px;
+  row-gap: 77px;
+  grid-template-columns: repeat(2, 1fr);
+}

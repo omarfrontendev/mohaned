@@ -1,0 +1,93 @@
+.single__program__box {
+  padding: 42px 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.single__program__box .program__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+}
+.card:nth-child(1) .single__program__box .program__icon {
+  background-color: #4E3064;
+}
+.card:nth-child(2) .single__program__box .program__icon {
+  background-color: #AA4DB9;
+}
+.card:nth-child(3) .single__program__box .program__icon {
+  background-color: #F05165;
+}
+.card:nth-child(4) .single__program__box .program__icon {
+  background-color: #DEB50F;
+}
+.single__program__box .programe__title {
+  font-size: 23px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 43.1px;
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+.single__program__box .program__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 33.73px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.single__program__box .program__details__btn {
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF;
+  width: 100%;
+}
+.card:nth-child(1) .single__program__box .program__details__btn {
+  background-color: #4E3064;
+}
+.card:nth-child(2) .single__program__box .program__details__btn {
+  background-color: #AA4DB9;
+}
+.card:nth-child(3) .single__program__box .program__details__btn {
+  background-color: #F05165;
+}
+.card:nth-child(4) .single__program__box .program__details__btn {
+  background-color: #DEB50F;
+}
+@media(max-width: 1600px) {
+  .single__program__box .programe__title {
+    font-size: 20px;
+  }
+  .single__program__box .program__subtitle {
+    font-size: 16px;
+  }
+}
+@media(max-width: 1400px) {
+  .single__program__box {
+    padding: 42px 18px 25px;
+  }
+  .single__program__box .program__details__btn {
+    padding: 10px;
+  }
+  .single__program__box .program__icon {
+    width: 60px;
+    height: 60px;
+  }
+  .single__program__box .program__icon svg {
+    height: 26px;
+  }
+}
+@media(max-width: 1199px) {
+  .single__program__box .program__subtitle {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+  }
+}

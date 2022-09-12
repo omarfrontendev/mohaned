@@ -1,0 +1,64 @@
+.edit__account__form {
+  background-color: #FFF;
+  padding: 27px 75px 60px;
+  width: 100%;
+}
+.edit__account__form .edit__account__title {
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 43px;
+}
+.edit__account__form .edit__account__subtitle {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 36px;
+} 
+.edit__account__form .fomr__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 36px;
+  column-gap: 87px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.edit__account__form .fomr__inputs .select__box__controle,
+.edit__account__form .fomr__inputs .input__controle {
+  flex-basis: calc(50% - 87px);
+  display: flex;
+  position: relative;
+}
+.edit__account__form .fomr__inputs .select__box__controle .seclect__box {
+  all: unset;
+  background-color: transparent;
+  height: 58px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0 32px 0 20px;
+  display: flex;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 10;
+  background-color: #FFF;
+}
+.select__box__controle .drop_icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.edit__account__form__submit {
+  all: unset;
+  background-color: #DEB50F;
+  color: #FFF;
+  border-radius: 15px;
+  width: 160px;
+  height: 58px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+}

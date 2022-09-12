@@ -1,0 +1,83 @@
+.hero__section {
+  height: calc(100vh - 155px);
+  width: 100%;
+  position: relative;
+}
+.hero__section .hero__bgk {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero__bgk .bgk__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__section__text {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+}
+.hero__section .hero__title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 75.7px;
+  margin-bottom: 17px;
+  color: #1F1F1F;
+}
+.hero__section .hero__subtitle {
+  font-size: 24px;
+  line-height: 46px;
+  color: #1F1F1F;
+  font-weight: 300;
+}
+.hero__section .hero__title > span > span,
+.hero__section .hero__subtitle > span,
+.hero__section .hero__title > span {
+  font-weight: 700;
+  position: relative;
+}
+.hero__section .hero__title > span .tag {
+  position: absolute;
+  top: -50px;
+  left: -60px;
+}
+.hero__section .hero__title > span .line {
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+}
+.hero__section .hero__btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 40px;
+  margin-top: 17px;
+}
+.hero__section .hero__btns > button {
+  all: unset;
+}
+.hero__section .hero__btns .hero__btn__subscribe {
+  color: #FFF;
+  background-color: #4E3064;
+  font-weight: 700;
+  font-size: 16px;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  border-radius: 8px;
+}
+.hero__section .hero__btns .hero__btn__details {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  font-size: 21px;
+  color: #000000;
+}
+.hero__section .hero__btns .hero__btn__details span {
+  font-weight: 800;
+}

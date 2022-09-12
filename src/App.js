@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header'
+// import LoginPopup from './components/LoginPoup'
+import TestsPage from './pages/TestsPage'
+import CoursesPage from './pages/CoursesPage'
+import MeetingsPage from './pages/MeetingsPage'
+import EditProfilePage from './pages/EditProfilePage'
+import TakativeProgramPage from './pages/TakativeProgramPage'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Footer from './components/Footer'
 
-function App() {
+import './styles.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <div className='main__content'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/edit-profile' element={<EditProfilePage />} />
+          <Route path='/programs' element={<TakativeProgramPage />} />
+          <Route path='/meetings' element={<MeetingsPage />} />
+          <Route path='courses' element={<CoursesPage />} />
+          <Route path='/tests' element={<TestsPage />} />
+        </Routes>
+      </div>
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,17 @@
+.main__header.footer .header__top {
+  padding: 0;
+}
+@media(max-width: 575px) {
+  .main__header.footer .header__top {
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 8px;
+    justify-content: flex-start;
+  }
+  .main__header.footer .left__nav {
+    justify-content: flex-start;
+  }
+  /* .main__header.footer .rigth__nav {
+    width: 100%;
+  } */
+}

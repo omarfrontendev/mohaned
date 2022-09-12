@@ -1,0 +1,30 @@
+.options__program__Section {
+  margin: 120px auto;
+}
+.options__program__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 77px;
+}
+
+@media(max-width: 1600px) {
+  .options__program__content {
+    gap: 30px;
+  }
+}
+@media(max-width: 1400px) {
+  .options__program__content {
+    column-gap: 20px;
+  }
+}
+@media(max-width: 1199px) {
+  .options__program__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 767px) {
+  .options__program__content {
+    grid-template-columns: 1fr;
+    grid-area: 35px;
+  }
+}
